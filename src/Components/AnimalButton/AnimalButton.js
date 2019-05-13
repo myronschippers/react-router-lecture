@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {withRouter} from 'react-router-dom';
 
 class AnimalButton extends Component {
   handleClick = () => {
@@ -14,4 +15,4 @@ class AnimalButton extends Component {
     }
 }
 
-export default AnimalButton
+export default withRouter(AnimalButton);
