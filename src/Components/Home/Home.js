@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import AnimalButton from '../AnimalButton/AnimalButton';
 
 class Home extends Component {
   handleClick = (event) => {
@@ -12,7 +13,7 @@ class Home extends Component {
     return (
       <div>
         <h1>HOME</h1>
-        <button onClick={this.handleClick}>GO TO ANIMALS</button>
+        <AnimalButton />
       </div>
     )
   }
