@@ -9,11 +9,13 @@ import Home from './Components/Home/Home.js'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Home />
-        <Plants />
-        <Animals />
-      </div>
+      <Router>
+        <div className="App">
+          <Home />
+          <Plants />
+          <Animals />
+        </div>
+      </Router>
     );
   }
 }
