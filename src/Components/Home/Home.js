@@ -12,7 +12,7 @@ class Home extends Component {
     return (
       <div>
         <h1>HOME</h1>
-        <button onClick={this.handleClick}>Click to Change Location</button>
+        <button onClick={this.handleClick}>GO TO ANIMALS</button>
       </div>
     )
   }
