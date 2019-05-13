@@ -11,8 +11,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <nav>
-            <ul>
+          <nav className="mainNav">
+            <ul className="mainNav-list">
               <li>
                 <Link to="/">Home</Link>
               </li>

@@ -26,3 +26,43 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.mainNav {
+  display: block;
+  background-color: #222222;
+}
+
+.mainNav-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  color: #ededed;
+}
+
+.mainNav-list > * {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 1.2rem;
+}
+
+.mainNav-list > * > a {
+  display: block;
+  box-sizing: border-box;
+  width: 140px;
+  height: 5rem;
+  color: #bcbcbc;
+  font-weight: bold;
+  line-height: 5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.mainNav-list > * > a:hover {
+  display: block;
+  box-sizing: border-box;
+  border-top: 3px solid #ededed;
+  color: #ededed;
+  line-height: 4.7rem;
+}
