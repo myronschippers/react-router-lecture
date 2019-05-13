@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 
-import Animals from './Components/Animals/Animals.js'
-import Plants from './Components/Plants/Plants.js'
-import Home from './Components/Home/Home.js'
+import Animals from '../Animals/Animals.js'
+import Plants from '../Plants/Plants.js'
+import Home from '../Home/Home.js'
 
 class App extends Component {
   render() {
