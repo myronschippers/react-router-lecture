@@ -131,7 +131,7 @@ export default Home;
 ```
 
 
-But how??
+But how do we change locations??
 
 Thankfully, we have the ability to do so!
 When you make a `Route`, say 
@@ -144,7 +144,7 @@ You get an array called `history` and an object called `match`.
 
 `history` is the key here! It's an array of everywhere we've been, and the last entry is where we are!
 
-To change where we are, we will just `push` a new location to the array!
+To change where we are, we will just `push` a new location to the array! The history property has a custom push method that allows us to update the current location by passing it a new route.
 
 ```jsx
 handleClick = () => {
